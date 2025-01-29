@@ -141,16 +141,24 @@
 .homepagebackground {
   width: 100%;
   height: 100vh;
-  background-color: #4158d0;
+  background-color: #4158d0; 
   background-image: linear-gradient(
     43deg,
-    #4158d0 0%,
-    #c850c0 46%,
-    #ffcc70 100%
+    #3d40af 0%,
+    #822082 46%,
+    #223dd9 100%
   );
+
+  
+  
+  /* background-image: url("https://gridlinesbuilders.in/images/background2.jpg"); */
 }
 .row {
   padding-top: 80px;
+}
+
+.hey{
+  margin-top: 50px;
 }
 
 .wave {

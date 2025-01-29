@@ -1,5 +1,5 @@
 import { Container, Row, Col } from 'react-bootstrap'
-import Text from '../components/Text'
+import Text from './Text'
 import {
   AiFillGithub,
   AiOutlineTwitter,
@@ -7,6 +7,8 @@ import {
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import "../pages/style.css";
+import socail from "../pages/social.json";
+import Lottie from 'lottie-react';
 
 
 function Home() {
@@ -16,11 +18,11 @@ function Home() {
         <Row>
           <Col md={7}>
             <h2 className='headtext'>Hello <span className='wave'>👋 </span></h2>
-            <h2 className='nametext'>Im Rahul Vijay</h2>
+            <h2 className='nametext'>Abdul here</h2>
             <span></span>
             <Text />
             <button onClick={() => {
-              window.open("https://github.com/rahulvijay81");
+              window.open("https://github.com/abdul1028");
             }}
               className='socailmediabtn'><AiFillGithub className='icon' /></button>
             <button onClick={() => {
@@ -32,13 +34,14 @@ function Home() {
             }}
               className='socailmediabtn'><AiOutlineTwitter className='icon' /></button>
             <button onClick={() => {
-              window.open("https://instagram.com/rahulvijay81");
+              window.open("https://instagram.com/abduldotexe");
             }}
               className='socailmediabtn'><AiFillInstagram className='icon' /></button>
           </Col>
 
-          <Col md={5}>
-            <div className="imagedeveloper">
+          <Col md={5}  >
+            <div className='hey'  >
+              <Lottie animationData={socail}  />
             </div>
           </Col>
         </Row>

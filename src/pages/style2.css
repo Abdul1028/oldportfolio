@@ -1,0 +1,41 @@
+/* Navbar styling */
+.custom-navbar {
+    background-color: transparent;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .custom-navbar.sticky {
+    background-color: #333; /* Change to your desired sticky background color */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nav-link {
+    color: #fff; /* Text color */
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .nav-link:hover {
+    color: #FF5733; /* Hover text color */
+  }
+  
+  /* Customize the logo and other elements as needed */
+  .logo {
+    /* Add your logo styles */
+  }
+  
+  /* Customize the resume button */
+  .resumebtn {
+    background-color: #FF5733; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-left: 10px;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+  }
+  
+  .resumebtn:hover {
+    background-color: #222; /* Hover background color */
+    transform: scale(1.05); /* Scale up on hover */
+  }
+  
